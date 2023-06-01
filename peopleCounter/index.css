@@ -1,0 +1,13 @@
+button {
+    border-radius: 2px;
+    border-style: dashed;
+    color: white;
+}
+
+#increment-btn {
+    background-color: red;
+}
+
+#save-btn {
+    background-color: green;
+}
