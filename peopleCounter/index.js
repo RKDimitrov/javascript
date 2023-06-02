@@ -1,17 +1,14 @@
 let countEl = document.getElementById("count-el");
+let saveEl = document.getElementById("save-el");
 let count = 0;
 
 function increment() {
     count++;
-    countEl.innerText = count;
+    countEl.textContent = count;
 }
 
 function save() {
-    console.log(count)
+    saveEl.textContent += count + " - ";
+    count = 0;
+    countEl.innerText = count;
 }
-
-let name = "per"
-let message = "You have three new notifications"
-
-let messageToUser = message + "," + name
-
