@@ -1,8 +1,8 @@
-let hands = ["rock", "paper", "scissors"]
+const recipient = "Radi"
+const sender = "Jori"
 
-function randomItem() {
-    let item = Math.floor(Math.random() * 3);
-    return hands[item];
-}
+const email = `Hey ${recipient}! 
+How's it going? 
+Cheers ${sender}`
 
-console.log(randomItem());
+console.log(email);
