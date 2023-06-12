@@ -1,8 +1,14 @@
-const recipient = "Radi"
-const sender = "Jori"
+const imgs = [
+    "img1",
+    "img2",
+    "img3"
+]
 
-const email = `Hey ${recipient}! 
-How's it going? 
-Cheers ${sender}`
+function render(imgs) {
+    for (i = 0; i < imgs.length; i++) {
+        let string += `<img src=${imgs[i]}>`;
+    }
+}
+render(imgs);
 
-console.log(email);
+container.innerHTML = string; 
